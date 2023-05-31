@@ -22,4 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('wish/',wish,name='wish'),
     path('condition/',condition,name='condition'),
+    path('loop/',loop,name='loop'),
+    path('loop1/',loop1,name='loop1'),
+    path('loop2/',loop2,name='loop2')
 ]
